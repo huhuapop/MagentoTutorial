@@ -20,8 +20,18 @@ https://www.digitalocean.com/community/tutorials/how-to-install-and-use-composer
 Here is a bug for this document.
 
 This hash value will change based on the sinature file changes
-php -r "echo hash_file('SHA384', 'composer-setup.php') === '93b54496392c062774670ac18b134c3b3a95e5a5e5c8f1a9f115f203b75bf9a129d5daa8ba6a13e2cc8a1da0806388a8') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+
+php -r "if (hash_file('SHA384', 'composer-setup.php') === '93b54496392c062774670ac18b134c3b3a95e5a5e5c8f1a9f115f203b75bf9a129d5daa8ba6a13e2cc8a1da0806388a8') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+
+composer 1.7.2
+
+1.4 Nginx
+version 1.10.3
+https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-16-04
 
 
+1.5 PHP extension 
+
+https://devdocs.magento.com/guides/v2.2/install-gde/prereq/php-ubuntu.html
 
 https://devdocs.magento.com/guides/v2.2/install-gde/install/web/install-web.html
