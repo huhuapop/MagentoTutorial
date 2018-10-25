@@ -6,7 +6,8 @@ https://www.simicart.com/blog/how-to-install-magento-2-localhost/
 
 The download version of xampp is win32-7.0.32-0
 
-The download version of Magento2 is Magento-CE-2.1.15_sample_data-2018-09-10-09-01-59
+The download version of Magento2 is Magento 2.1.15
+
 
 
 Magento 2.2  Install and config steps
